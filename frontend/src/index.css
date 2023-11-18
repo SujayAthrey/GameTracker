@@ -1,0 +1,32 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #007bff;
+}
+
+.game-title {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.completed-game {
+  text-decoration: line-through;
+  color: #afd2f1;
+}
+
+.tab-list > span {
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  border-radius: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.tab-list > span.active {
+  background-color: #007bff;
+  color: #fff;
+}
